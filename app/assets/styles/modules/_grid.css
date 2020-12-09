@@ -41,3 +41,7 @@
   .flex-align-center   {
     align-items: center;
   }
+
+  .flex-align-top  {
+      align-items: flex-start;
+  }
