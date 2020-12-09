@@ -1,0 +1,47 @@
+/* Grid */
+
+.column {
+    flex-basis: 100%;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+    .column {
+      flex: 1;
+    }
+
+    ._2 {
+        flex: 2;
+    }
+    ._25 {
+      flex: 2.5;
+    }
+    ._5 {
+      flex: 5;
+    }
+    ._75 {
+        flex: 7.5;
+      }
+
+    ._8 {
+        flex: 8;
+    }
+  }
+  /* Style */
+  
+  .column {
+    padding: 15px;
+    margin: 5px 0;
+  }
+  
+  .flex-align-center   {
+    align-items: center;
+  }
+
+  .flex-align-top  {
+      align-items: flex-start;
+  }
