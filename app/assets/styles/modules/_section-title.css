@@ -8,16 +8,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    
     }
 
     strong {
         font-weight: 500;
     }
 
+    &--blue {
+        color: $mainBlue;
+    }
+
     &__icon {
         display: block;
         margin: 0 auto .6rem auto;
+        padding-right: 1rem;
 
         @mixin atSmall {
             margin: 0;
